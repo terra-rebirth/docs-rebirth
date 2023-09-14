@@ -8,9 +8,9 @@ module.exports = async function config() {
   const math = (await import('remark-math')).default;
   const katex = (await import('rehype-katex')).default;
   return {
-    title: 'Terra Docs',
-    tagline: 'The official docs for the Terra blockchain',
-    url: 'https://docs.terra.money',
+    title: 'Terra-Rebirth Docs',
+    tagline: 'The official docs for the Terra-Rebirth blockchain',
+    url: 'https://docs.opz.life',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -45,7 +45,7 @@ module.exports = async function config() {
             routeBasePath: '/', // Serve the docs at the site's root
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
-            editUrl: 'https://github.com/terra-money/docs/blob/main/',
+            editUrl: 'https://github.com/terra-rebirth/docs-rebirth/blob/main/',
           },
           blog: false,
           theme: {
@@ -93,20 +93,20 @@ module.exports = async function config() {
         navbar: {
           title: '',
           logo: {
-            alt: 'Terra Docs',
+            alt: 'Terra-Rebirth Docs',
             src: 'img/logo_light.svg',
             srcDark: 'img/logo_dark.svg',
           },
           items: [
             {
-              href: 'https://terra.money', //front-end URL
+              href: 'https://docs.opz.life', //front-end URL
               position: 'right',
               label: 'terra.money',
               className: 'header-terra-link',
               'aria-label': 'Terra Money',
             },
             {
-              href: 'https://github.com/terra-money/docs',
+              href: 'https://github.com/terra-rebirth/docs-rebirth',
               position: 'right',
               className: 'header-github-link',
               'aria-label': 'GitHub repository',
