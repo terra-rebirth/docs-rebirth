@@ -4,7 +4,7 @@ import ThemedImage from '@theme/ThemedImage';
 const Copyright: React.FC = () => {
   return (
     <div className="copyright col">
-      <a href='https://www.terra.money/'>
+      <a href='https://home.opz.life/'>
         <ThemedImage
           sources={{
             light:"/img/icons/terraform-labs.svg",
@@ -12,7 +12,7 @@ const Copyright: React.FC = () => {
             height="40px"
         />
       </a>
-      <p style={{fontSize: '10px'}}>{`Copyright © ${new Date().getFullYear()} Terraform Labs`}</p>
+      <p style={{fontSize: '10px'}}>{`Copyright © ${new Date().getFullYear()} Opz Labs`}</p>
     </div>
   )
 }

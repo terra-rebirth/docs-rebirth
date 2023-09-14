@@ -15,7 +15,7 @@ module.exports = async function config() {
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     favicon: 'img/favicon.ico',
-    organizationName: 'terra-money', // Usually your GitHub org/user name.
+    organizationName: 'terra-rebirth', // Usually your GitHub org/user name.
     projectName: 'docs', // Usually your repo name.
     i18n: {
       defaultLocale: 'en',
@@ -99,11 +99,11 @@ module.exports = async function config() {
           },
           items: [
             {
-              href: 'https://docs.opz.life', //front-end URL
+              href: 'https://home.opz.life', //front-end URL
               position: 'right',
-              label: 'terra.money',
+              label: 'terra-rebirth',
               className: 'header-terra-link',
-              'aria-label': 'Terra Money',
+              'aria-label': 'Terra money',
             },
             {
               href: 'https://github.com/terra-rebirth/docs-rebirth',
